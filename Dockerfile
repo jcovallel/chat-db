@@ -1,5 +1,5 @@
 FROM mongo
 
-CMD --port 27018
+ENTRYPOINT ["--port", 27018]
 
 EXPOSE 27018
